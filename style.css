@@ -157,6 +157,13 @@ input
     background-color: rgba(128,128,128,0);
 }
 
+.message
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0);
+}
+
 .infosContact
 {
     padding-left: 1em;
