@@ -111,14 +111,48 @@ ul, li, a
     padding: 10px;
 }
 
-.img1
+.imgFond
 {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.img1
+{
     background-image: url("images/portfolio/1.png");
 }
+.img2
+{
+    background-image: url("images/portfolio/2.png");
+}
+
+.img3
+{
+    background-image: url("images/portfolio/3.png");
+}
+.img4
+{
+    background-image: url("images/portfolio/4.png");
+}
+.img5
+{
+    background-image: url("images/portfolio/5.png");
+}
+.img6
+{
+    background-image: url("images/portfolio/6.png");
+}
+.img7
+{
+    background-image: url("images/portfolio/7.png");
+}
+.img8
+{
+    background-image: url("images/portfolio/8.png");
+}
+
 
 .colorBlack
 {
