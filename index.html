@@ -5,38 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blueasy</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-            <nav>
-                <span id="logo">blu<span id="bleu">e</span>asy</span>
-                <div>
-                    <ul>
-                        <li><a href="#" id="home">home</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">features</a></li>
-                        <li><a href="#">portfolio</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div id="punchline">
-                <h1>"i'm looking for the unexpected.</h1>
-                <h1>i'm looking for things i've never seen before"</h1>
+    <header>
+        <nav>
+            <span id="logo">blu<span id="bleu">e</span>asy</span>
+            <div>
+                <ul>
+                    <li><a href="#" class="actif">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
             </div>
-        </header>
+        </nav>
+        <div id="punchline">
+            <h1>"i'm looking for the unexpected.</h1>
+            <h1>i'm looking for things i've never seen before"</h1>
+        </div>
+    </header>
 
-        <div class="container-fluid service">
-            <h2>services</h2>
-            <div class="container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <div class="container-fluid service pt-5">
+        <div class="container-xl d-flex">
+            <div class="row d-flex">
+                <div>
+                    <h2><span class="souligne">ser</span>vices</h2>
+                </div>
+                <div class="d-flex">
+                    <div class="boxService">
+                        <img src="images/coffee.png" alt="">
+                        <h3>coffee</h3>
+                        <p>Apple pie icing sweet. Brownie jelly-o applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes</p>
+                    </div>
+                    <div class="boxService">
+                        <img src="images/instant.png" alt="">
+                        <h3>instant</h3>
+                        <p>Apple pie icing sweet. Brownie jelly-o applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes</p>
+                    </div>
+                    <div class="boxService">
+                        <img src="images/frame.png" alt="">
+                        <h3>serious</h3>
+                        <p>Apple pie icing sweet. Brownie jelly-o applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes</p>
+                    </div>
+                    <div class="boxService">
+                        <img src="images/frame.png" alt="">
+                        <h3>frame</h3>
+                        <p>Apple pie icing sweet. Brownie jelly-o applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="colorBlack"><span class="souligne">Por</span>tfolio</h2>
+                <div>
+                    <ul>
+                        <li><a href="#" class="colorBlack actif">all</a></li>
+                        <li><a href="#" class="colorBlack">panorama</a></li>
+                        <li><a href="#" class="colorBlack">portraits</a></li>
+                        <li><a href="#" class="colorBlack">macros</a></li>
+                        <li><a href="#" class="colorBlack">journal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-between">
+
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+                <div class="col-3 containerImg"><div class="img1"></div></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid justDefaultSection">
+        <div class="container d-flex justify-content-arround">
+            <div class="containerL col-6">
+                <h2><span class="souligne">jus</span>t default section</h2>
+                <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aspernatur at aut autem cumque dolorum, ducimus exercitationem facilis laboriosam maiores nisi nostrum possimus repellat sunt veritatis voluptatem? Cum, sit.</p>
+                <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto, dolores ea eaque fugiat iste odio placeat quasi quisquam repudiandae vero voluptatem. Accusamus adipisci distinctio, dolorem necessitatibus odio sint vero?</p>
+                <button class="col-4 btn border border-dark">visit me</button>
+            </div>
+            <div class="col-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ar_kl4t7ytc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid service">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h2 class="pb-4"><span class="souligne">twi</span>tter</h2>
+                <img src="images/twitter.png" width="28" height="22">
+            </div>
+            <p class="text colorWhite">Unerdwear cookie liquorice. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere!</p>
+            <p class="text colorWhite">@Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid bio">
+        <div class="container">
+            <div><h2 class="pb-4"><span class="souligne">wh</span>o is jhon doe?</h2></div>
+            <div class="d-flex">
+                <div class="m-4">
+                    <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deleniti dolore doloribus dolorum ea eaque est harum nihil quis vero. Enim expedita explicabo ipsa labore minima molestiae porro possimus velit.</p>
+                    <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi, cumque dignissimos doloribus esse eum incidunt iure, perferendis quidem quod rem sed totam unde. Consequatur.</p>
+                </div>
+                <div class="m-4">
+                    <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consequatur, cum earum id, ipsa molestias nihil odio omnis optio praesentium reprehenderit sapiente sunt tempore, tenetur totam vitae. Omnis, temporibus!</p>
+                    <div class="m-3">
+                        <img class="m-3" src="images/social/twiter2.png">
+                        <img class="m-3" src="images/social/googleplus.png">
+                        <img class="m-3" src="images/social/dribble.png">
+                        <img class="m-3" src="images/social/coffee2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h2 class="pb-4 colorBlack"><span class="souligne">tes</span>timonials</h2>
+                <img src="images/guillemets.png" width="28" height="22">
+            </div>
+            <p class="colorBlack text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolor fugiat hic laudantium nemo odio qui reiciendis repellendus similique temporibus?nemo odio qui reiciendis repellendus similique temporibus?</p>
+            <p class="citation text">-walter white</p>
+        </div>
+    </div>
+
+    <div class="container-fluid bio">
+        <div class="container">
+            <div><h2 class="pb-4"><span class="souligne">con</span>tact</h2></div>
+            <form class="container-fluid" action="" method="">
+                <div class="d-flex flex-wrap">
+                    <div class="col-6 d-flex flex-column">
+                        <label class="colorWhite" for="fullName"><span class="text">full name</span></label>
+                        <input type="text" name="fullName" id="fullName">
+
+                        <label class="colorWhite" for="mail"><span class="text">email</span></label>
+                        <input type="mail" name="mail" id="mail">
+                    </div>
+                    <div class="d-flex align-item-center flex-column col-6 infosContact">
+                        <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut consequuntur cupiditate eos fugit harum quo quos, rerum, sapiente sequi totam.</p>
+                        <p class="colorWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea labore neque pariatur perferendis quia recusandae sed vitae. Culpa, itaque molestiae.</p>
+                    </div>
+                    <div class="d-flex flex-column col-12">
+                        <label class="colorWhite" for="message"><span class="text">message</span></label>
+                        <input type="text" name="message" id="message">
+                    </div>
+                </div>
+                <button class="btn border mt-4 col-3" type="submit">message</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="container-fluide footer">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <ul>
+                    <li><a href="#" class="colorBlack colorGrey border-r">home</a></li>
+                    <li><a href="#" class="colorBlack colorGrey border-r">services</a></li>
+                    <li><a href="#" class="colorBlack colorGrey border-r">portfolio</a></li>
+                    <li><a href="#" class="colorBlack colorGrey">contact</a></li>
+                </ul>
+            </div>
+            <span class="colorGrey">2022@</span>
+        </div>
+    </div>
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>

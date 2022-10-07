@@ -28,6 +28,17 @@ h1
     background-color: #35353573;
 }
 
+h2, h3
+{
+    color: white;
+    text-transform: uppercase;
+}
+
+span
+{
+    text-transform: uppercase;
+}
+
 #logo
 {
     color: white;
@@ -51,9 +62,15 @@ ul, li, a
     text-transform: uppercase;
 }
 
-#home
+.actif
 {
     border: 2px solid deepskyblue;
+}
+
+.container-fluid
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 #bleu
@@ -75,5 +92,87 @@ ul, li, a
 .service
 {
     background-color: deepskyblue;
+}
 
+.boxService>*
+{
+    color: white;
+}
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.containerImg
+{
+    height: 150px;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.img1
+{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/portfolio/1.png");
+}
+
+.colorBlack
+{
+    color: black;
+}
+
+.justDefaultSection
+{
+    background-color: grey;
+}
+
+.bio
+{
+    background-color: rgb(147, 165, 187);
+}
+
+.text
+{
+    font-size: 23px;
+}
+
+.colorWhite
+{
+    color: white;
+}
+
+.citation
+{
+    color: deepskyblue;
+}
+
+input
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0);
+}
+
+.infosContact
+{
+    padding-left: 1em;
+}
+
+.border-r
+{
+    border-right: 2px solid grey;
+}
+
+.footer
+{
+    background-color: #5d5d5d;
+}
+
+.colorGrey
+{
+    color: grey;
 }
